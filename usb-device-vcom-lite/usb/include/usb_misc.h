@@ -42,15 +42,15 @@
  ******************************************************************************/
 
 /*! @brief Define USB printf */
-#if defined(__cplusplus)
-extern "C" {
-#endif /* __cplusplus */
+// #if defined(__cplusplus)
+// extern "C" {
+// #endif /* __cplusplus */
 
-extern int DbgConsole_Printf(const char *fmt_s, ...);
+// extern int DbgConsole_Printf(const char *fmt_s, ...);
 
-#if defined(__cplusplus)
-}
-#endif /* __cplusplus */
+// #if defined(__cplusplus)
+// }
+// #endif /* __cplusplus */
 
 // #if defined(SDK_DEBUGCONSOLE) && (SDK_DEBUGCONSOLE < 1)
 // #define usb_echo printf

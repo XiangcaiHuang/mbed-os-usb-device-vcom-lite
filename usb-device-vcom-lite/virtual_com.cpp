@@ -30,7 +30,6 @@
 #include "mbed.h"
 #include "fsl_device_registers.h"
 #include "fsl_clock_config.h"
-#include "board.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -57,7 +56,6 @@
 #endif
 
 void BOARD_InitHardware(void);
-#include "pin_mux.h"
 /*******************************************************************************
 * Definitions
 ******************************************************************************/
@@ -665,8 +663,7 @@ void APP_task(void)
 
 int main(void)
 {
-    BOARD_InitPins();
-    BOARD_BootClockRUN();
+    // BOARD_BootClockRUN();
 
     APPInit();
 
